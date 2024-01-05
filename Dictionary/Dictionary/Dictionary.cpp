@@ -35,7 +35,6 @@ void Dictionary::clear()
 
 English_Word* Dictionary::find(string word) const
 {
-    deque<English_Word*> words;
     return  find(root, word);
 }
 
